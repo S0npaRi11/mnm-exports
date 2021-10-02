@@ -29,7 +29,7 @@ const index = () => {
             <Suspense fallback={<Loader />}>
 
             <Helmet>
-                <title> About - MNM Exports </title>
+                <title> About Us - MNM Exports </title>
                 <meta
                 name="description" 
                 content="MNM Exports is a International Merchant of Apparel based in Dhule, Maharashtra, India. MNM Exports primarily works with comodities like fresh cotton t-shirts, shirts, etc."

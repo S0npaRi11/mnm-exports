@@ -39,9 +39,9 @@ const navbar = () => {
                     <div className="group inline-block relative">
                         <Link className="md:px-3 py-3 mx-1 transition duration-600 hover:bg-white hover:text-primary" to="/products"> Collection <FaAngleDown className="inline"/> </Link>
                         <ul className="absolute hidden w-full md:px-3 py-3 mt-2 transition duration-600 bg-white text-primary group-hover:block">
-                            <li className="text-primary p-2 transition duration-600 hover:bg-primary hover:text-white"> <Link to="/products/onion"> Men </Link> </li>
-                            <li className="text-primary p-2 transition duration-600 hover:bg-primary hover:text-white"> <Link to="/products/pomegranate"> Women </Link> </li>
-                            <li className="text-primary p-2 transition duration-600 hover:bg-primary hover:text-white"> <Link to="/products/ginger"> Kids </Link> </li>
+                            <li className="text-primary p-2 transition duration-600 hover:bg-primary hover:text-white"> <Link to="/products/men"> Men </Link> </li>
+                            <li className="text-primary p-2 transition duration-600 hover:bg-primary hover:text-white"> <Link to="/products/women"> Women </Link> </li>
+                            <li className="text-primary p-2 transition duration-600 hover:bg-primary hover:text-white"> <Link to="/products/kids"> Kids </Link> </li>
                         </ul>
                     </div>
                     <Link className="md:px-3 py-3 mx-1 transition duration-600 hover:bg-white hover:text-primary" to="/about"> About </Link>

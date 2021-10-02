@@ -18,7 +18,7 @@ const index = () => {
             <title> Home - MNM Exports </title>
             <meta
              name="description" 
-              content="MNM Exports is a International Merchant of Indian Agricultural comodities based in Dhule, Maharashtra, India. MNM Exports primarily works with comodities like fresh onion, pomegranate, spices like ginger, turmeric and many more"
+              content="MNM Exports is a International Merchant of Apparel based in Dhule, Maharashtra, India. MNM Exports primarily works with comodities like fresh cotton t-shirts, shirts, etc."
             />
           </Helmet>
 

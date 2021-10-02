@@ -101,7 +101,7 @@ const index = () => {
             <Suspense fallback={<Loader />}>
 
                 <Helmet>
-                    <title> Contact - MNM Exports </title>
+                    <title> Contact Us - MNM Exports </title>
                     <meta
                     name="description" 
                     content="You can leave your requirements / quries by filling the given form, email us or follow us on social media for regular updates"

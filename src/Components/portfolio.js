@@ -12,17 +12,17 @@ const portfolio = () => {
         {
             name: `Men`,
             image: imgOnion,
-            link: '/products/onion'
+            link: '/products/men'
         },
         {
             name: 'Women',
             image: imgPomo,
-            link: '/products/pomegranate'
+            link: '/products/women'
         },
         {
             name: 'Kids',
             image: imgGinger,
-            link: '/products/ginger'
+            link: '/products/kids'
         },
 
     ]

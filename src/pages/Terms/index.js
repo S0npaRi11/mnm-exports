@@ -8,7 +8,6 @@ import Heading from '../../Components/_heading'
 
 const Navbar = lazy(() =>import('../../Components/_navbar'))
 const Banner = lazy(() =>import('../../Components/_banner'))
-const Card = lazy(() =>import('../../Components/_card'))
 const Footer = lazy(() =>import('../../Components/footer'))
 
 const index = () => {
@@ -17,7 +16,7 @@ const index = () => {
         <Suspense fallback={<Loader />}>
 
             <Helmet>
-                <title> About - MNM Exports </title>
+                <title> Terms & Conditions - MNM Exports </title>
                 <meta
                 name="description" 
                 content="MNM Exports is a International Merchant of Apparel based in Dhule, Maharashtra, India. MNM Exports primarily works with comodities like fresh cotton t-shirts, shirts, etc."

@@ -15,7 +15,7 @@ const about = () => {
                     <img alt="mnm-exports-about-us-img" className="w-full h-full object-cover" src={img}/>
                 </div>
 
-                <div className="pl-5">
+                <div className="md:pl-5">
                     <Heading title="About MNM Exports" />
                     <p className="text-xl leading-relaxed tracking-wider">
                         MNM exports is a supplier and exporter of Indian Apparel. We cherry-pick our products from the finest producers in India, to deliver the real quality of the Indian fabrics, without compromising on quality whatsoever.

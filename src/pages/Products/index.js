@@ -1,4 +1,5 @@
 import React, { lazy, Suspense } from 'react'
+import {Helmet} from "react-helmet";
 
 import Loader from '../../Components/loader'
 
@@ -11,8 +12,17 @@ const index = () => {
     return (
         <>
         <Suspense fallback={<Loader />}>
+
+            <Helmet>
+                <title> Collection - MNM Exports </title>
+                <meta
+                name="description" 
+                content="MNM Exports is a International Merchant of Apparel based in Dhule, Maharashtra, India. MNM Exports primarily works with comodities like fresh cotton t-shirts, shirts, etc."
+                />
+            </Helmet>
+
             <Navbar />
-            <Banner title="Our Products" />
+            <Banner title="Our Collection" />
 
             <section className="h-auto p-10 text-primary font-montserrat text-xl leading-relaxed tracking-wider">
                 <p>

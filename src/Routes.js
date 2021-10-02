@@ -9,9 +9,10 @@ const About = lazy(() => import('./pages/About'))
 const Contact = lazy(() => import('./pages/Contact')) 
 const Products = lazy(() => import('./pages/Products')) 
 // const Turmeric = lazy(() => import('./pages/Products/Turmeric')) 
-const Onion = lazy(() => import('./pages/Products/Onion'))
-const Pomegranate = lazy(() => import('./pages/Products/Pomegranate'))
-const Ginger = lazy(() => import('./pages/Products/Ginger'))
+const Men = lazy(() => import('./pages/Products/Men'))
+const Tshirts = lazy(() => import('./pages/Products/T-shirts'))
+const Women = lazy(() => import('./pages/Products/Women'))
+const Kids = lazy(() => import('./pages/Products/Kids'))
 const Terms = lazy(() => import('./pages/Terms'))
 
 
@@ -41,20 +42,20 @@ const Routes = () => {
                         <Terms />
                     </Route>
 
-                    {/* <Route path="/products/turmeric" exact>
-                        <Turmeric />
-                    </Route> */}
-
-                    <Route path="/products/onion" exact>
-                        <Onion />
+                    <Route path="/products/men" exact>
+                        <Men />
                     </Route>
 
-                    <Route path="/products/pomegranate" exact>
-                        <Pomegranate />
+                    <Route path="/products/women" exact>
+                        <Women />
                     </Route>
 
-                    <Route path="/products/ginger" exact>
-                        <Ginger />
+                    <Route path="/products/kids" exact>
+                        <Kids />
+                    </Route>
+
+                    <Route path="/products/t-shirts" exact>
+                        <Tshirts />
                     </Route>
                 </Switch>
             </Suspense>

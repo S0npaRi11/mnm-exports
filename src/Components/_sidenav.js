@@ -34,7 +34,7 @@ const _sidenav = ({ closeNav }) => {
                         animate={{opacity: 1}}
                     > 
                         <Link to="/products"> 
-                            Products
+                            Collection
 
                             <span className="px-5" onClick={toggleList}>
                                 <FaAngleDown className="inline"/>
@@ -43,9 +43,9 @@ const _sidenav = ({ closeNav }) => {
                         {
                             toggle && 
                                 <ul className="px-5 py-2">
-                                    <li className="py-2"> <Link to="/products/onion"> Red / Pink Onion </Link> </li>
-                                    <li className="py-2"> <Link to="/products/pomegranate"> Pomogrenade </Link> </li>
-                                    <li className="py-2"> <Link to="/products/ginger"> Ginger </Link> </li>
+                                    <li className="py-2"> <Link to="/products/men"> Men </Link> </li>
+                                    <li className="py-2"> <Link to="/products/women"> Women </Link> </li>
+                                    <li className="py-2"> <Link to="/products/kids"> Kids </Link> </li>
                                 </ul>
                         }
                     </motion.li>

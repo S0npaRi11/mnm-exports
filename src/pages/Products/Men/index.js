@@ -1,0 +1,57 @@
+// import { projectRoot } from '@craco/craco/lib/paths'
+import React, { lazy, Suspense } from 'react'
+import {Helmet} from "react-helmet";
+
+import Loader from '../../../Components/loader'
+
+import img from '../../../Static/about-t-shirt.jpg'
+
+
+const Navbar = lazy(() => import('../../../Components/_navbar')) 
+const Banner = lazy(() => import('../../../Components/_banner')) 
+const Footer = lazy(() => import('../../../Components/footer')) 
+const Card = lazy(() => import('../../../Components/_card'))
+
+
+const index = () => {
+
+    const productArray = [
+        {
+            name: 'T-shirts',
+            image: img,
+            link: '/products/t-shirts'
+
+        }
+    ]
+
+    return (
+        <>
+            <Suspense fallback={<Loader />}>
+
+            <Helmet>
+                <title> Men - Category - MNM Exports </title>
+                <meta
+                name="description" 
+                content="MNM Exports is a International Merchant of Apparel based in Dhule, Maharashtra, India. MNM Exports primarily works with comodities like fresh cotton t-shirts, shirts, etc."
+                />
+            </Helmet>
+
+            <Navbar />
+
+            <Banner title="Mens Collection" />
+
+            <section className="h-auto p-10 text-primary font-montserrat text-xl leading-relaxed tracking-wider">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+                    {productArray.map(product => (
+                        <Card  key={product.name} title={product.name} link={product.link} image={product.image} />
+                    ))}
+                </div>
+            </section>
+
+            <Footer />
+        </Suspense>
+        </>
+    )
+}
+
+export default index
