@@ -1,0 +1,2 @@
+(this["webpackJsonpmnm-exports"]=this["webpackJsonpmnm-exports"]||[]).push([[26],{38:function(t,r,e){"use strict";e.r(r);e(0);var o=e(9),n=e(1);r.default=function(t){var r=t.title,e=t.link,i=t.color,a=void 0===i?"primary":i;return Object(n.jsx)(o.b,{className:"p-4 my-5 border border-".concat("primary"===a?"black":"white"," font-montserrat text-").concat(a," inline-block transition duration-600 hover:bg-primary hover:text-white"),to:e,children:r})}}}]);
+//# sourceMappingURL=26.207e7f15.chunk.js.map
