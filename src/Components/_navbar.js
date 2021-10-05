@@ -3,7 +3,7 @@ import {FaBars, FaPhoneAlt, FaEnvelopeOpen, FaAngleDown} from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 import SideNav from './_sidenav'
 
-import logoImg from '../Static/mnm-export-logo.jpg'
+import logoImg from '../Static/mnm-exports-logo.png'
 
 const navbar = () => {
 
@@ -32,8 +32,8 @@ const navbar = () => {
                 </div>
             </div>
             <nav className="flex flex-row flex-wrap justify-around content-center z-10 sticky top-0 bg-primary font-montserrat text-white">
-                <span className="md:px-5 py-5 inline">
-                   <Link to="/"> <img src={logoImg} alt="MNM-exports-logo" width="20" className="inline"/> </Link>
+                <span className="md:px-5 py-3 inline">
+                   <Link to="/"> <img src={logoImg} alt="MNM-exports-logo" width="80" className="inline"/> </Link>
                 </span>
                 <div className="flex flex-row justify-start content-center hidden md:inline py-5">
                     <div className="group inline-block relative">

@@ -26,7 +26,7 @@ const index = () => {
             </Helmet>
 
             <Navbar />
-            <Banner title="Cotton T-shirts" />
+            <Banner title="Synthetic T-shirts" />
 
             <section className="h-auto p-10 text-primary font-montserrat text-xl leading-relaxed tracking-wider">
                 <div className="grid grid-cols-1 md:grid-rows-1 md:grid-cols-2 md:p-10 gap-10">
@@ -66,7 +66,7 @@ const index = () => {
 
                         <tr>
                             <th className="border border-black p-3"> Fabric </th>
-                            <td className="border border-black p-3"> Cotton </td>
+                            <td className="border border-black p-3"> Polyester </td>
                         </tr>
 
                         <tr>
@@ -79,10 +79,10 @@ const index = () => {
                             <td className="border border-black p-3"> Round </td>
                         </tr>
 
-                        <tr>
+                        {/* <tr>
                             <th className="border border-black p-3"> Colours </th>
                             <td className="border border-black p-3"> 20 </td>
-                        </tr>
+                        </tr> */}
 
                         <tr>
                             <th className="border border-black p-3"> GSM </th>
@@ -91,9 +91,9 @@ const index = () => {
                         </tbody>
                     </table>
 
-                    {/* <Button title="Download Brouchure" link="https://docs.google.com/presentation/d/1afkhVfEcOtg91x649TgHWttxQPrhB5LifsK8zPqlDAY/edit?usp=sharing"/> */}
-                    <a href="https://drive.google.com/file/d/13uzxIPdxCQEY-MXEJxylZlIPUe5K4t_t/view?usp=sharing" className="p-4 my-5 border border-black font-montserrat text-primary inline-block transition duration-600 hover:bg-primary hover:text-white"> Download Brouchure </a>
-
+                    {/* <Button title="Download Brouchure" link="https://docs.google.com/presentation/d/1g00z-GVzxnpYlNp1EIEKwze1urPkys2SQl4C3pV0iMI/edit?usp=sharing"/> */}
+                    {/* <a href="https://docs.google.com/presentation/d/1g00z-GVzxnpYlNp1EIEKwze1urPkys2SQl4C3pV0iMI/edit?usp=sharing" className="p-4 my-5 border border-black font-montserrat text-primary inline-block transition duration-600 hover:bg-primary hover:text-white"> Download Brouchure </a> */}
+                    <a href="https://drive.google.com/file/d/1M3GNJh-wMHqF2ziSZMZcO7H03kQkHnbA/view?usp=sharing" className="p-4 my-5 border border-black font-montserrat text-primary inline-block transition duration-600 hover:bg-primary hover:text-white"> Download Brouchure </a>
 
             </section>
 

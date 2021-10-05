@@ -3,6 +3,8 @@ import {FaFacebook, FaTwitter, FaInstagram, FaLinkedinIn, FaMapMarkerAlt,FaRegEn
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 
+import logoImg from '../Static/mnm-exports-logo.png'
+
 import Heading from './_heading'
 import Button from './_button'
 
@@ -99,7 +101,7 @@ const footer = () => {
 
         <div className="flex flex-row flex-wrap justify-around content-center bg-tertiory text-white">
             <span className="px-5 py-5 hidden md:block">
-               <a href="/" className="transition duration-600 hover:text-secondary">  C </a>
+               <a href="/" className="transition duration-600 hover:text-secondary"> <img src={logoImg} alt="logo" width="80" className="inline"/> </a>
             </span>
 
             <span className="flex flex-row justify-between p-2">

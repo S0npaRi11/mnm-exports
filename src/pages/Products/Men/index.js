@@ -17,9 +17,15 @@ const index = () => {
 
     const productArray = [
         {
-            name: 'T-shirts',
+            name: 'Cotton T-shirts',
             image: img,
-            link: '/products/t-shirts'
+            link: '/products/cotton-t-shirts'
+
+        },
+        {
+            name: 'synthetic T-shirts',
+            image: img,
+            link: '/products/synthetic-t-shirts'
 
         }
     ]
