@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import {FaTimes, FaAngleDown, FaFacebook, FaTwitter, FaInstagram, FaLinkedinIn, FaPhoneAlt, FaEnvelopeOpen} from 'react-icons/fa'
+import {FaTimes, FaAngleDown, FaFacebook, FaTwitter, FaLinkedinIn, FaPhoneAlt, FaEnvelopeOpen} from 'react-icons/fa'
 import {motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 // import { delay } from 'q'
@@ -79,7 +79,7 @@ const _sidenav = ({ closeNav }) => {
 
                 <span className="flex flex-col justify-start content-center text-md">
                     <a className="md:px-3 py-3 mx-1 transition duration-600 hover:bg-white" href="tel:7057634075"> <FaPhoneAlt className="inline"/> +91&nbsp;7057634075 </a>
-                    <a className="md:px-3 py-3 mx-1 transition duration-600 hover:bg-white" href="mailto:contact@mnmexports.com"> <FaEnvelopeOpen className="inline"/> contact@mnmexports.com </a>
+                    <a className="md:px-3 py-3 mx-1 transition duration-600 hover:bg-white" href="mailto:mnmexports01@gmail.com"> <FaEnvelopeOpen className="inline"/> mnmexports01@gmail.com </a>
                 </span>
 
                 <span className="flex flex-row justify-between">

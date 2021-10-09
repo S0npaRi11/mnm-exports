@@ -9,7 +9,7 @@ const Navbar =  lazy(() => import('../../../Components/_navbar'))
 const Banner =  lazy(() => import('../../../Components/_banner')) 
 const Footer =  lazy(() => import('../../../Components/footer')) 
 const Heading =  lazy(() => import('../../../Components/_heading')) 
-const Button = lazy(() => import('../../../Components/_button'))
+// const Button = lazy(() => import('../../../Components/_button'))
 
 
 const index = () => {

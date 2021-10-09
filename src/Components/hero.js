@@ -15,7 +15,7 @@ const hero = () => {
             />
             <div style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', width: '98vw', textAlign: 'center'}}>
                 
-                <Heading title="An International Merchant of Apparel from India" />
+                <Heading title="An Apparel Exporter from India" />
 
                 <Button title="Know More" link="/about" />
             </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import {FaFacebook, FaTwitter, FaInstagram, FaLinkedinIn, FaMapMarkerAlt,FaRegEnvelope, FaPhoneAlt } from 'react-icons/fa'
+import {FaFacebook, FaTwitter, FaLinkedinIn, FaMapMarkerAlt,FaRegEnvelope, FaPhoneAlt } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 
@@ -81,8 +81,8 @@ const footer = () => {
                             whileHover={{x:20}}
                             transition={{ease: "easeOut", duration: 0.1}}
                         >
-                            <a href="mailto:contact@mnmexports.com">
-                                <FaRegEnvelope  className="inline" /> contact@mnmexports.com
+                            <a href="mnmexports01@gmail.com">
+                                <FaRegEnvelope  className="inline" /> mnmexports01@gmail.com
                             </a> 
                         </motion.li>
 

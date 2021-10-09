@@ -38,12 +38,12 @@ const index = () => {
         const validateFrom = () => {
 
             if(name !== ''){
-                let format = /[ `!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?~]/;
+                let format = /[ `!@#$%^&*()_+\-=[\]{};':"\\|,.<>/?~]/;
                 isNameValid = !format.test(name)
             }
     
             if(businessName !== ''){
-                let format = /[ `!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?~]/;
+                let format = /[ `!@#$%^&*()_+\-=[\]{};':"\\|,.<>/?~]/;
                 isBusinessNameValid = !format.test(businessName)
             }
     

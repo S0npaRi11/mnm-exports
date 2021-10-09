@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 const heading = ({title, color="primary"}) => {
 
     // eslint-disable-next-line react-hooks/rules-of-hooks
-    const [ref, inView, entry] = useInView()
+    const [ref, inView] = useInView()
 
     const varients = {
         initial:{y: 50, opacity: 0},

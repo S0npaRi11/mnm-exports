@@ -111,7 +111,7 @@ const index = () => {
                 <Heading title='Contact Us' />
                 <p>
                     If you have any questions or concerns about our use of your personal information, please contact
-                    us at <a href="mailto:contact@mnmexports.com" className="underline"> contact@mnmexports.com </a><br />
+                    us at <a href="mnmexports01@gmail.com" className="underline"> mnmexports01@gmail.com </a><br />
 
                     Plot No. 33/A,<br /> Sonchapha Colony, Sakri Road,<br /> Dhule, Maharashtra, India
                     <br /> 

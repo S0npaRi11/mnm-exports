@@ -3,7 +3,8 @@ import {Helmet} from "react-helmet";
 
 import Loader from '../../Components/loader'
 
-import img from '../../Static/mnm-exports-about.jpg'
+import imgParag from '../../Static/teams-parag.jpg'
+import imgManish from '../../Static/teams-parag.jpg'
 import Heading from '../../Components/_heading'
 
 const Navbar = lazy(() =>import('../../Components/_navbar'))
@@ -16,11 +17,11 @@ const index = () => {
     const teamsArray = [
         {
             name: 'Mr. Manish Mahale',
-            image: img
+            image: imgManish
         },
         {
             name: 'Mr. Parag Mahale',
-            image: img
+            image: imgParag
         }
     ]
 
@@ -37,7 +38,7 @@ const index = () => {
             </Helmet>
 
                 <Navbar />
-                <Banner title="About Us" image={img} />
+                <Banner title="About Us" />
 
                 <section className="h-auto p-10 text-primary font-montserrat text-xl leading-relaxed tracking-wider">
                     <p>
