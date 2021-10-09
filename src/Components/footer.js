@@ -105,10 +105,9 @@ const footer = () => {
             </span>
 
             <span className="flex flex-row justify-between p-2">
-                <a className="px-3 py-5 transition duration-600 hover:text-secondary" href="/"> <FaFacebook className="text-xl" /> </a>
-                <a className="px-3 py-5 transition duration-600 hover:text-secondary" href="/"> <FaTwitter className="text-xl" /> </a>
-                <a className="px-3 py-5 transition duration-600 hover:text-secondary" href="/"> <FaInstagram className="text-xl" /> </a>
-                <a className="px-3 py-5 transition duration-600 hover:text-secondary" href="/"> <FaLinkedinIn className="text-xl" /> </a>
+                <a className="px-3 py-5 transition duration-600 hover:text-secondary" href="https://www.facebook.com/MNM-Exports-107592501697087/"> <FaFacebook className="text-xl" /> </a>
+                <a className="px-3 py-5 transition duration-600 hover:text-secondary" href="https://twitter.com/mnmexports01"> <FaTwitter className="text-xl" /> </a>
+                <a className="px-3 py-5 transition duration-600 hover:text-secondary" href="https://www.linkedin.com/company/76517960"> <FaLinkedinIn className="text-xl" /> </a>
             </span>
         </div>
         </>
