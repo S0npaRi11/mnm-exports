@@ -14,7 +14,7 @@ const _sidenav = ({ closeNav }) => {
 
     return (
         <>
-        <motion.section className="w-screen h-screen bg-white z-20 fixed px-10 font-andadaPro text-primary"
+        <motion.section className="w-screen h-screen bg-white z-20 fixed px-10 font-montserrat text-primary"
             initial={{x:"200vw"}}
             animate={{x:0}}
             transition={{ease:"easeOut", duration: 0.6}}

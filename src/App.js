@@ -7,7 +7,7 @@ import AppRoutes from './Routes'
 function App() {
   return (
    <>
-      <Router basename="/mnm-exports">
+      <Router>
         <AppRoutes />
       </Router>
    </>
