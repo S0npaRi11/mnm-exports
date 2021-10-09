@@ -33,7 +33,7 @@ const index = () => {
                 <title> About Us - MNM Exports </title>
                 <meta
                 name="description" 
-                content="MNM Exports is a International Merchant of Apparel based in Dhule, Maharashtra, India. MNM Exports primarily works with comodities like fresh cotton t-shirts, shirts, etc."
+                content="MNM Exports is an apparel exporter based in Dhule, Maharashtra, India. MNM Exports primarily works with comodities like fresh cotton t-shirts, shirts, etc."
                 />
             </Helmet>
 
