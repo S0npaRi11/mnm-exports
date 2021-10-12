@@ -18,7 +18,7 @@ module.exports = {
 
       fontFamily:{
         'montserrat': ['"Montserrat"'],
-        // 'oswald': ['"Oswald"']
+        'oswald': ['"Oswald"']
       }
     },
     extend: {
