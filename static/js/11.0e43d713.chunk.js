@@ -1,0 +1,2 @@
+(this["webpackJsonpmnm-exports"]=this["webpackJsonpmnm-exports"]||[]).push([[11],{44:function(t,e,s){"use strict";s.r(e);s(0);var n=s(34),c=s(1);e.default=function(t){var e=t.title;t.image;return Object(c.jsx)(c.Fragment,{children:Object(c.jsx)("section",{className:"bg-secondary h-auto px-10 font-montserrat bg-secondary text-white",children:Object(c.jsx)(n.default,{title:e,color:"black"})})})}}}]);
+//# sourceMappingURL=11.0e43d713.chunk.js.map
