@@ -4,7 +4,8 @@ import {Helmet} from "react-helmet";
 
 import Loader from '../../../Components/loader'
 
-import img from '../../../Static/about-t-shirt.jpg'
+import imgCotton from '../../../Static/about-t-shirt.jpg'
+import imgSynth from '../../../Static/about-synthetic-t-shirts.jpg'
 
 
 const Navbar = lazy(() => import('../../../Components/_navbar')) 
@@ -18,13 +19,13 @@ const index = () => {
     const productArray = [
         {
             name: 'Cotton T-shirts',
-            image: img,
+            image: imgCotton,
             link: '/products/cotton-t-shirts'
 
         },
         {
             name: 'synthetic T-shirts',
-            image: img,
+            image: imgSynth,
             link: '/products/synthetic-t-shirts'
 
         }

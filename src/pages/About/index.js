@@ -47,7 +47,7 @@ const index = () => {
                     </p>
 
                     <p>
-                        MNM exports have been founded with the vision of helping the local farmers to cultivate good quality crops and helping them understand and take active participation in value addition of said crops.
+                        MNM exports have been founded with the vision of helping and encouraging the local small manufacturers to produce high quality products and by introducing them to the wider market via exports.
                     </p>
 
                     <p>

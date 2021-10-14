@@ -3,7 +3,7 @@ import {Helmet} from "react-helmet";
 
 import Loader from '../../../Components/loader'
 
-import img from '../../../Static/about-t-shirt.jpg'
+import img from '../../../Static/about-synthetic-t-shirts.jpg'
 
 const Navbar =  lazy(() => import('../../../Components/_navbar')) 
 const Banner =  lazy(() => import('../../../Components/_banner')) 
@@ -51,7 +51,7 @@ const index = () => {
                         <tbody>
                         <tr>
                             <th className="border border-black p-3"> Product Type </th>
-                            <td className="border border-black p-3"> Round Neck </td>
+                            <td className="border border-black p-3"> T-shirt </td>
                         </tr>
 
                         <tr>
@@ -71,7 +71,7 @@ const index = () => {
 
                         <tr>
                             <th className="border border-black p-3"> Sleve Type </th>
-                            <td className="border border-black p-3"> Half Sleeves </td>
+                            <td className="border border-black p-3"> Half Sleeves, Long Sleeves </td>
                         </tr>
 
                         <tr>
@@ -88,12 +88,17 @@ const index = () => {
                             <th className="border border-black p-3"> GSM </th>
                             <td className="border border-black p-3"> 160 - 180 </td>
                         </tr>
+
+                        <tr>
+                            <th className="border border-black p-3"> Gender </th>
+                            <td className="border border-black p-3"> Men, Women </td>
+                        </tr>
                         </tbody>
                     </table>
 
                     {/* <Button title="Download Brouchure" link="https://docs.google.com/presentation/d/1g00z-GVzxnpYlNp1EIEKwze1urPkys2SQl4C3pV0iMI/edit?usp=sharing"/> */}
                     {/* <a href="https://docs.google.com/presentation/d/1g00z-GVzxnpYlNp1EIEKwze1urPkys2SQl4C3pV0iMI/edit?usp=sharing" className="p-4 my-5 border border-black font-montserrat text-primary inline-block transition duration-600 hover:bg-primary hover:text-white"> Download Brouchure </a> */}
-                    <a href="https://drive.google.com/file/d/1M3GNJh-wMHqF2ziSZMZcO7H03kQkHnbA/view?usp=sharing" className="p-4 my-5 border border-black font-montserrat text-primary inline-block transition duration-600 hover:bg-primary hover:text-white"> Download Brouchure </a>
+                    <a href="https://drive.google.com/file/d/1bf7cATbuZkncd1OGa_F_q4W-j5WMwxJ4/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="p-4 my-5 border border-black font-montserrat text-primary inline-block transition duration-600 hover:bg-primary hover:text-white"> Download Brouchure </a>
 
             </section>
 

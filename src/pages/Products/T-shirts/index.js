@@ -21,7 +21,7 @@ const index = () => {
                 <title> T-shirts - Products - MNM Exports </title>
                 <meta
                 name="description" 
-                content="MNM Exports is a International Merchant of Apparel based in Dhule, Maharashtra, India. MNM Exports primarily works with comodities like fresh cotton t-shirts, shirts, etc."
+                content="MNM Exports is an Apparel exporter based in Dhule, Maharashtra, India. MNM Exports primarily works with comodities like fresh cotton t-shirts, shirts, etc."
                 />
             </Helmet>
 
@@ -51,7 +51,7 @@ const index = () => {
                         <tbody>
                         <tr>
                             <th className="border border-black p-3"> Product Type </th>
-                            <td className="border border-black p-3"> Round Neck </td>
+                            <td className="border border-black p-3"> T-shirt </td>
                         </tr>
 
                         <tr>
@@ -71,7 +71,7 @@ const index = () => {
 
                         <tr>
                             <th className="border border-black p-3"> Sleve Type </th>
-                            <td className="border border-black p-3"> Half Sleeves </td>
+                            <td className="border border-black p-3"> Half Sleeves, Long Sleeves </td>
                         </tr>
 
                         <tr>
@@ -88,11 +88,16 @@ const index = () => {
                             <th className="border border-black p-3"> GSM </th>
                             <td className="border border-black p-3"> 160 - 180 </td>
                         </tr>
+
+                        <tr>
+                            <th className="border border-black p-3"> Gender </th>
+                            <td className="border border-black p-3"> Men, Women </td>
+                        </tr>
                         </tbody>
                     </table>
 
                     {/* <Button title="Download Brouchure" link="https://docs.google.com/presentation/d/1afkhVfEcOtg91x649TgHWttxQPrhB5LifsK8zPqlDAY/edit?usp=sharing"/> */}
-                    <a href="https://drive.google.com/file/d/13uzxIPdxCQEY-MXEJxylZlIPUe5K4t_t/view?usp=sharing" className="p-4 my-5 border border-black font-montserrat text-primary inline-block transition duration-600 hover:bg-primary hover:text-white"> Download Brouchure </a>
+                    <a href="https://drive.google.com/file/d/1fA_tE1qAVl3rwO0ntcahWwYn9pehCSxA/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="p-4 my-5 border border-black font-montserrat text-primary inline-block transition duration-600 hover:bg-primary hover:text-white"> Download Brouchure </a>
 
 
             </section>
