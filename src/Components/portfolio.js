@@ -3,9 +3,9 @@ import Card from './_card'
 import Heading from './_heading'
 
 // import img from '../Static/mnm-exports-hero.jpg'
-import imgOnion from '../Static/card-img-men.jpg'
-import imgPomo from '../Static/card-img-women.jpg'
-import imgGinger from '../Static/card-img-kids.jpg'
+import imgOnion from '../Static/card-img-men.avif'
+import imgPomo from '../Static/card-img-women.avif'
+import imgGinger from '../Static/card-img-kids.avif'
 
 const portfolio = () => {
     const projectArray = [

@@ -3,8 +3,8 @@ import {Helmet} from "react-helmet";
 
 import Loader from '../../../Components/loader'
 
-import imgCotton from '../../../Static/about-t-shirt.jpg'
-import imgSynth from '../../../Static/about-synthetic-t-shirts.jpg'
+import imgCotton from '../../../Static/about-t-shirt-1.avif'
+import imgSynth from '../../../Static/about-synthetic-t-shirts-1.avif'
 
 const Navbar = lazy(() => import('../../../Components/_navbar')) 
 const Banner = lazy(() => import('../../../Components/_banner')) 

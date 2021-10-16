@@ -3,7 +3,7 @@ import {Helmet} from "react-helmet";
 
 import Loader from '../../../Components/loader'
 
-import img from '../../../Static/about-t-shirt.jpg'
+import img from '../../../Static/about-t-shirt-1.avif'
 
 const Navbar =  lazy(() => import('../../../Components/_navbar')) 
 const Banner =  lazy(() => import('../../../Components/_banner')) 
@@ -39,7 +39,7 @@ const index = () => {
                         </p>
                     </div>
                     <div>
-                        <img src={img} alt="t-shirts" className="object-cover overflow-hidden" />
+                        <img src={img} alt="t-shirts" className="object-cover overflow-hidden w-full" />
                     </div>
                 </div>
                 

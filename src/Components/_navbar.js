@@ -25,10 +25,11 @@ const navbar = () => {
                     <a className="md:px-3 py-3 mx-1 transition duration-600 hover:bg-white" href="mailto:mnmexports01@gmail.com"> <FaEnvelopeOpen className="inline"/> mnmexports01@gmail.com </a>
                 </span>
 
-                <div>
+                <div className="hidden md:inline">
                     {/**
                      * Translate website dropdown here
                      */}
+                     <div id="google_translate_element"></div>
                 </div>
             </div>
             <nav className="flex flex-row flex-wrap justify-around content-center z-10 sticky top-0 bg-primary font-montserrat text-white">

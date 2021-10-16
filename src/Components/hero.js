@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import Heading from './_heading'
 import Button from './_button'
 
-import HeroImage from '../Static/hero.jpg'
+import HeroImage from '../Static/hero-1.avif'
 
 const hero = () => {
     return (
@@ -13,7 +13,7 @@ const hero = () => {
                 animate={{scale: 1}}
                 transition={{ease: "easeOut", duration: 2,}}
             />
-            <div style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', width: '98vw', textAlign: 'center'}}>
+            <div style={{position: 'absolute', top: '12%', left: '50%', transform: 'translate(-50%, -50%)', width: '98vw', textAlign: 'center'}}>
                 
                 <Heading title="An Apparel Exporter from India" />
 

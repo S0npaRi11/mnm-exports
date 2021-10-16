@@ -4,7 +4,7 @@ import React from 'react'
 import Heading from './_heading'
 import Button from './_button'
 
-import img from '../Static/about-mnm.jpg'
+import img from '../Static/about-mnm.avif'
 
 const about = () => {
     return (

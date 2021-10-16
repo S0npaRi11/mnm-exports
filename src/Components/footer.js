@@ -14,11 +14,11 @@ const footer = () => {
             <section className="h-auto px-10 font-andadaPro bg-secondary">
             <div className="grid grid-cols-1 md:grid-rows-1 md:grid-cols-3 gap-5 md:justify-items-center py-5">
                 <div className="md:h-auto">
-                   <Heading title="Let's Talk" color="black"/>
+                   <Heading title="Let's Talk" color="white"/>
 
-                   <Button title="Contact Us" link="/contact" />
+                   <Button title="Contact Us" link="/contact" color="white" />
                 </div>
-                <div className="h-full md:h-full md:my-16 font-montserrat">
+                <div className="h-full md:h-full md:my-16 font-montserrat text-white">
                     <ul>
                         <motion.li className="p-1 transition duration-600 hover:text-white"
                             whileHover={{x:20}}
@@ -67,7 +67,7 @@ const footer = () => {
                     </ul>
                 </div>
 
-                <div  className="md:my-16 font-montserrat">
+                <div  className="md:my-16 font-montserrat text-white">
                     <ul>
                         <motion.li className="p-1 transition duration-600 hover:text-white"
                             whileHover={{x:20, cursor: "pointer"}}
@@ -81,7 +81,7 @@ const footer = () => {
                             whileHover={{x:20}}
                             transition={{ease: "easeOut", duration: 0.1}}
                         >
-                            <a href="mnmexports01@gmail.com">
+                            <a href="mailto:mnmexports01@gmail.com">
                                 <FaRegEnvelope  className="inline" /> mnmexports01@gmail.com
                             </a> 
                         </motion.li>
