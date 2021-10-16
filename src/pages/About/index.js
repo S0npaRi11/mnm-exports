@@ -4,7 +4,7 @@ import {Helmet} from "react-helmet";
 import Loader from '../../Components/loader'
 
 import imgParag from '../../Static/teams-parag.avif'
-import imgManish from '../../Static/teams-parag.avif'
+import imgManish from '../../Static/teams-default.avif'
 import Heading from '../../Components/_heading'
 
 const Navbar = lazy(() =>import('../../Components/_navbar'))
