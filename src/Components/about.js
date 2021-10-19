@@ -18,7 +18,7 @@ const about = () => {
                 <div className="md:pl-5">
                     <Heading title="About MNM Exports" />
                     <p className="text-xl leading-relaxed tracking-wider">
-                        MNM exports is a supplier and exporter of Indian Apparel. We cherry-pick our products from the finest producers in India, to deliver the real quality of the Indian fabrics, without compromising on quality whatsoever.
+                        MNM exports is a supplier and exporter of Indian Apparel. We deliver the finest apparel produced in India, to deliver the real quality of the Indian fabrics, without compromising on quality whatsoever.
                     </p>
 
                     <Button title="About Us" alt="about-us-btn" link="/about"/>
