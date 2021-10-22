@@ -1,6 +1,6 @@
 import React from 'react'
 
-import loaderImg from '../Static/loader-img.png'
+import loaderImg from '../Static/mnm-exports-logo.png'
 
 const loader = () => {
     return (

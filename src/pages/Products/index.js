@@ -25,9 +25,9 @@ const index = () => {
             <Banner title="Our Collection" />
 
             <section className="h-auto p-10 text-primary font-montserrat text-xl leading-relaxed tracking-wider">
-                <p>
+                {/* <p>
                     MNM exports cherry-pick all its products from all over India to ensure quality products for our customers.
-                </p>
+                </p> */}
             </section>
 
             <Portfolio />
