@@ -72,7 +72,7 @@ const index = () => {
                         </tbody>
                     </table>
 
-                    <a href="https://drive.google.com/file/d/1MEyDxVO1heGL_xD3siELYLSPO9XQf04b/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="p-4 my-5 border border-black font-montserrat text-primary inline-block transition duration-600 hover:bg-primary hover:text-white"> Download Brouchure </a>
+                    <a href="https://drive.google.com/file/d/1eQjbUhY6fNMndDX0AccPiyCgV7SyxYXc/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="p-4 my-5 border border-black font-montserrat text-primary inline-block transition duration-600 hover:bg-primary hover:text-white"> Download Brouchure </a>
                 </div>
             </section>
 
