@@ -38,11 +38,16 @@ const navbar = () => {
                 </span>
                 <div className="flex flex-row justify-start content-center hidden md:inline py-5">
                     <div className="group inline-block relative">
-                        <Link className="md:px-3 py-3 mx-1 transition duration-600 hover:bg-white hover:text-primary" to="/products"> Collection <FaAngleDown className="inline"/> </Link>
-                        <ul className="absolute hidden w-full md:px-3 py-3 mt-2 transition duration-600 bg-white text-primary group-hover:block">
-                            <li className="text-primary p-2 transition duration-600 hover:bg-primary hover:text-white"> <Link to="/products/men"> Men </Link> </li>
-                            <li className="text-primary p-2 transition duration-600 hover:bg-primary hover:text-white"> <Link to="/products/women"> Women </Link> </li>
-                            <li className="text-primary p-2 transition duration-600 hover:bg-primary hover:text-white"> <Link to="/products/kids"> Kids </Link> </li>
+                        <Link className="md:px-3 py-3 mx-1 transition duration-600 hover:bg-white hover:text-primary" to="/products"> Products <FaAngleDown className="inline"/> </Link>
+                        <ul className="absolute hidden w-full md:px-3 py-3 mt-2 transition duration-600 bg-white text-primary group-hover:block" style={{width:'max-content'}}>
+                            <li className="text-primary p-2 transition duration-600 hover:bg-primary hover:text-white"> <Link to="/products/t-shirts"> T-shirts </Link> </li>
+                            <li className="text-primary p-2 transition duration-600 hover:bg-primary hover:text-white"> <Link to="/products/sweatshirts"> Sweatshirts </Link> </li>
+                            <li className="text-primary p-2 transition duration-600 hover:bg-primary hover:text-white"> <Link to="/products/track-pants"> Track Pants </Link> </li>
+                            <li className="text-primary p-2 transition duration-600 hover:bg-primary hover:text-white"> <Link to="/products/hoodies"> Hoodies </Link> </li>
+                            <li className="text-primary p-2 transition duration-600 hover:bg-primary hover:text-white"> <Link to="/products/polo"> Polo </Link> </li>
+                            <li className="text-primary p-2 transition duration-600 hover:bg-primary hover:text-white"> <Link to="/products/tank-tops"> Tank Tops </Link> </li>
+                            <li className="text-primary p-2 transition duration-600 hover:bg-primary hover:text-white"> <Link to="/products/long-dress"> Long Dress </Link> </li>
+                            <li className="text-primary p-2 transition duration-600 hover:bg-primary hover:text-white"> <Link to="/products/crop-tops"> Crop Tops </Link> </li>
                         </ul>
                     </div>
                     <Link className="md:px-3 py-3 mx-1 transition duration-600 hover:bg-white hover:text-primary" to="/about"> About </Link>

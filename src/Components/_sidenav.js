@@ -29,12 +29,12 @@ const _sidenav = ({ closeNav }) => {
                     animate={{opacity: 1, y:0}}
                     transition={{ease: "easeOut", staggerChildren:0.5, delay: 0.6}}
                 >
-                    <motion.li className="my-8 text-2xl"
+                    <motion.li className="my-8 text-xl"
                         initial={{opacity: 0, y: 50}}
                         animate={{opacity: 1}}
                     > 
                         <Link to="/products"> 
-                            Collection
+                            Products
 
                             <span className="px-5" onClick={toggleList}>
                                 <FaAngleDown className="inline"/>
@@ -42,16 +42,27 @@ const _sidenav = ({ closeNav }) => {
                         </Link>
                         {
                             toggle && 
-                                <ul className="px-5 py-2">
-                                    <li className="py-2"> <Link to="/products/men"> Men </Link> </li>
-                                    <li className="py-2"> <Link to="/products/women"> Women </Link> </li>
-                                    <li className="py-2"> <Link to="/products/kids"> Kids </Link> </li>
+                            <div className="grid grid-cols-2">
+                                <ul className="text-lg">
+                                    <li className="py-2"> <Link to="/products/t-shirts"> T-shirts </Link> </li>
+                                    <li className="py-2"> <Link to="/products/sweatshirts"> Sweatshirts </Link> </li>
+                                    <li className="py-2"> <Link to="/products/track-pants"> Track Pants </Link> </li>
+                                    <li className="py-2"> <Link to="/products/hoodies"> Hoodies </Link> </li>
                                 </ul>
+
+                                <div className="text-lg">
+                                <li className="py-2"> <Link to="/products/polo"> Polo </Link> </li>
+                                    <li className="py-2"> <Link to="/products/tank-tops"> Tank Tops </Link> </li>
+                                    <li className="py-2"> <Link to="/products/long-dress"> Long Dress </Link> </li>
+                                    <li className="py-2"> <Link to="/products/crop-tops"> Crop Tops </Link> </li>
+                                </div>
+
+                            </div>
                         }
                     </motion.li>
 
 
-                    <motion.li className="my-8 text-2xl"
+                    <motion.li className="my-8 text-xl"
                         initial={{opacity: 0, y: 50}}
                         animate={{opacity: 1}}
                     > 
@@ -61,7 +72,7 @@ const _sidenav = ({ closeNav }) => {
                     </motion.li>
 
 
-                    <motion.li className="my-8 text-2xl"
+                    <motion.li className="my-8 text-xl"
                         initial={{opacity: 0, y: 50}}
                         animate={{opacity: 1}}
                     >

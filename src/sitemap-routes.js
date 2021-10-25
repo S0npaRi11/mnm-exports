@@ -9,10 +9,13 @@ export default (
         <Route path="/contact" />
         <Route path="/products" />
         <Route path="/terms" />
-        <Route path="/products/men" />
-        <Route path="/products/women" />
-        <Route path="/products/kids" />
-        <Route path="/products/cotton-t-shirts" />
-        <Route path="/products/synthetic-t-shirts" />
+        <Route path="/products/t-shirts" />
+        <Route path="/products/sweatshirts" />
+        <Route path="/products/track-pants" />
+        <Route path="/products/long-dress" />
+        <Route path="/products/crop-tops" />
+        <Route path="/products/tank-tops" />
+        <Route path="/products/polo" />
+        <Route path="/products/hoodies" />
     </Route>
 )

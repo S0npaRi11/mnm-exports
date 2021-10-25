@@ -3,30 +3,13 @@ import {Helmet} from "react-helmet";
 
 import Loader from '../../../Components/loader'
 
-import img from '../../../Static/about-t-shirt-1.avif'
-
-
-// import cat1 from '../../../Static/cat-t-shirt-1.webp'
-import cat2 from '../../../Static/cat-t-shirt-2.webp'
-import cat3 from '../../../Static/cat-t-shirt-3.webp'
-import cat4 from '../../../Static/cat-t-shirt-4.webp'
-import cat5 from '../../../Static/cat-t-shirt-5.webp'
-import cat6 from '../../../Static/cat-t-shirt-6.webp'
-import cat7 from '../../../Static/cat-t-shirt-7.webp'
-import cat8 from '../../../Static/cat-t-shirt-8.webp'
-import cat9 from '../../../Static/cat-t-shirt-9.webp'
-// import cat10 from '../../../Static/cat-t-shirt-10.webp'
-
-const catalogueImgArray = [
-    cat2, cat3, cat4, cat5, cat6, cat7, cat8, cat9
-]
+import cat1 from '../../../Static/Products/T-shirts/catalogue/opt/1.webp'
+import cat2 from '../../../Static/Products/T-shirts/catalogue/opt/2.webp'
 
 const Navbar =  lazy(() => import('../../../Components/_navbar')) 
 const Banner =  lazy(() => import('../../../Components/_banner')) 
 const Footer =  lazy(() => import('../../../Components/footer')) 
 const Heading =  lazy(() => import('../../../Components/_heading')) 
-// const Button = lazy(() => import('../../../Components/_button'))
-
 
 const index = () => {
     return (
@@ -42,33 +25,24 @@ const index = () => {
             </Helmet>
 
             <Navbar />
-            <Banner title="Cotton T-shirts" />
+            <Banner title="Round Neck T-shirts" />
 
-            <section className="h-auto p-10 text-primary font-montserrat text-xl leading-relaxed tracking-wider">
-                <div className="grid grid-cols-1 md:grid-rows-1 md:grid-cols-2 md:p-10 gap-10">
-                    <div>
-                        <p>
-                            India has been an exporter of a good quality fabric and apparel for a long time. <br />
-                            Indian apparel have always offered great quality with reasonable price.<br />
-                            Keeping this trend alive, India is emerging as a big t-shirt exporter in recent years.<br />
-                            MNM Exports promises to deliver you t-shirts with best quality fabric at a competitive price.
-                        </p>
-                    </div>
-                    <div>
-                        <img src={img} alt="t-shirts" className="object-cover overflow-hidden w-full" />
-                    </div>
-                </div>
-                
-            </section>
+            <section className="h-auto p-10 text-primary font-montserrat leading-relaxed tracking-wider">
 
-            <section className="h-auto p-10 text-primary grid grid-cols-2 md:grid-rows-1 md:grid-cols-1 font-montserrat leading-relaxed tracking-wider">
+                    <div>
+                        <Heading title="Catalogue"/>
+                        <div>
+                            <img src={cat1} alt="t-shirt-catalogue" className="max-w-full"/>
+                            <img src={cat2} alt="t-shirt-catalogue" className="max-w-full"/>
+                        </div>
+                    </div>
                     <div>
                         <Heading title="Specification" />
                         <table className="text-left table-auto text-md md:text-xl">
                             <tbody>
                             <tr>
                                 <th className="border border-black p-3"> Product Type </th>
-                                <td className="border border-black p-3"> T-shirt </td>
+                                <td className="border border-black p-3"> Round neck T-shirt </td>
                             </tr>
 
                             <tr>
@@ -83,12 +57,16 @@ const index = () => {
 
                             <tr>
                                 <th className="border border-black p-3"> Fabric </th>
-                                <td className="border border-black p-3"> Cotton </td>
+                                <td className="border border-black p-3"> 
+                                    I: 100% cotton,double bio wash and silicone finish <br />
+                                    II: 100% cotton bio wash
+                                
+                                </td>
                             </tr>
 
                             <tr>
                                 <th className="border border-black p-3"> Sleve Type </th>
-                                <td className="border border-black p-3"> Half Sleeves, Long Sleeves </td>
+                                <td className="border border-black p-3"> Half Sleeves </td>
                             </tr>
 
                             <tr>
@@ -98,7 +76,7 @@ const index = () => {
 
                             <tr>
                                 <th className="border border-black p-3"> GSM </th>
-                                <td className="border border-black p-3"> 160 - 180 </td>
+                                <td className="border border-black p-3"> 180 </td>
                             </tr>
 
                             <tr>
@@ -108,20 +86,9 @@ const index = () => {
                             </tbody>
                         </table>
 
-                        <a href="https://drive.google.com/file/d/1fA_tE1qAVl3rwO0ntcahWwYn9pehCSxA/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="p-4 my-5 border border-black font-montserrat text-primary inline-block transition duration-600 hover:bg-primary hover:text-white"> Download Brouchure </a>
+                        <a href="https://drive.google.com/file/d/1vVQtySluuuPJI2C4XADrTFvtQhP__9Li/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="p-4 my-5 border border-black font-montserrat text-primary inline-block transition duration-600 hover:bg-primary hover:text-white"> Download Brouchure </a>
 
                     </div>
-
-                    <div>
-                        <Heading title="Catalogue"/>
-
-                        <div className="grid grid-cols-4">
-                            {catalogueImgArray.map(img => (
-                                <img key={catalogueImgArray.indexOf(img)} src={img} alt="catalogue"/>
-                            ))}
-                        </div>
-                    </div>
-
             </section>
 
             <Footer /> 

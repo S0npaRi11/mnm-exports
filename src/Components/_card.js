@@ -12,13 +12,13 @@ const card = ({ title= '', image = '', link=  '' }) => {
             >
                 { image !== '' && 
                     <motion.img 
-                        src={image} alt={image} className="w-full h-96 object-cover object-top overflow-hidden"
+                        src={image} alt={image} className="w-full h-80 object-cover object-top overflow-hidden"
                         whileHover={{scale: 1.2, opacity: 0.7}}
                         transition={{ease: "easeOut", duration: 0.6}}
                     />
                 }
                 <div className="p-2 bg-white" style={{zIndex: 2}}>
-                    {title !== '' && <h3 className="text-3xl py-1"> {title} </h3>}
+                    {title !== '' && <h3 className="text-2xl py-1"> {title} </h3>}
                     {/* {link !== '' && <a href={link}> View More </a>} */}
                 </div>
             </motion.div>

@@ -13,11 +13,13 @@ const hero = () => {
                 animate={{scale: 1}}
                 transition={{ease: "easeOut", duration: 2,}}
             />
-            <div style={{position: 'absolute', top: '12%', left: '50%', transform: 'translate(-50%, -50%)', width: '98vw', textAlign: 'center'}}>
+            <div className="absolute text-center  top-72 md:top-40" style={{left: '50%', transform: 'translateX(-50%)', width: '98vw'}}>
                 
                 <Heading title="An Apparel Exporter from India" />
 
                 <Button title="Know More" link="/about" />
+
+                <a href="https://drive.google.com/file/d/196NsRJqjNpw_kZbrlObABYe_b9IkBAaE/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="ml-2 p-4 my-5 border border-black font-montserrat text-primary inline-block transition duration-600 hover:bg-primary hover:text-white"> View Our Catalogue </a>
             </div>
         </section>
     )

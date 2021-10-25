@@ -3,7 +3,7 @@ import {Helmet} from "react-helmet";
 
 import Loader from '../../Components/loader'
 
-import img from '../../Static/mnm-exports-about.jpg'
+// import img from '../../Static/mnm-exports-about.jpg'
 import Heading from '../../Components/_heading'
 
 const Navbar = lazy(() =>import('../../Components/_navbar'))
@@ -24,7 +24,7 @@ const index = () => {
             </Helmet>
 
             <Navbar />
-            <Banner title="Terms & Conditions" image={img} />
+            <Banner title="Terms & Conditions" />
 
             <section className="h-auto p-10 text-primary font-montserrat text-xl leading-relaxed tracking-wider">
                <p>

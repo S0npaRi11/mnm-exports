@@ -8,12 +8,14 @@ const Home = lazy(() => import('./pages/Home'))
 const About = lazy(() => import('./pages/About')) 
 const Contact = lazy(() => import('./pages/Contact')) 
 const Products = lazy(() => import('./pages/Products')) 
-// const Turmeric = lazy(() => import('./pages/Products/Turmeric')) 
-const Men = lazy(() => import('./pages/Products/Men'))
 const Tshirts = lazy(() => import('./pages/Products/T-shirts'))
-const SyntheticTshirts = lazy(() => import('./pages/Products/Synthetic-T-shirts'))
-const Women = lazy(() => import('./pages/Products/Women'))
-const Kids = lazy(() => import('./pages/Products/Kids'))
+const Sweatshirts = lazy(() => import('./pages/Products/Sweatshirts'))
+const TrackPants = lazy(() => import('./pages/Products/Track-Pants'))
+const LongDress = lazy(() => import('./pages/Products/Long-Dress'))
+const CropTops = lazy(() => import('./pages/Products/Crop-tops'))
+const TankTops = lazy(() => import('./pages/Products/Tank-Tops'))
+const Hoodies = lazy(() => import('./pages/Products/Hoodies'))
+const Polo = lazy(() => import('./pages/Products/Polo'))
 const Terms = lazy(() => import('./pages/Terms'))
 
 
@@ -43,7 +45,7 @@ const Routes = () => {
                         <Terms />
                     </Route>
 
-                    <Route path="/products/men" exact>
+                    {/* <Route path="/products/men" exact>
                         <Men />
                     </Route>
 
@@ -53,15 +55,44 @@ const Routes = () => {
 
                     <Route path="/products/kids" exact>
                         <Kids />
-                    </Route>
+                    </Route> */}
 
-                    <Route path="/products/cotton-t-shirts" exact>
+                    <Route path="/products/t-shirts" exact>
                         <Tshirts />
                     </Route>
 
-                    <Route path="/products/synthetic-t-shirts" exact>
-                        <SyntheticTshirts />
+                    <Route path="/products/sweatshirts" exact>
+                        <Sweatshirts />
                     </Route>
+
+                    <Route path="/products/track-pants" exact>
+                        <TrackPants />
+                    </Route>
+
+                    <Route path="/products/long-dress" exact>
+                        <LongDress />
+                    </Route>
+
+                    <Route path="/products/crop-tops" exact>
+                        <CropTops />
+                    </Route>
+
+                    <Route path="/products/tank-tops" exact>
+                        <TankTops />
+                    </Route>
+
+                    <Route path="/products/hoodies" exact>
+                        <Hoodies />
+                    </Route>
+
+                    <Route path="/products/polo" exact>
+                        <Polo />
+                    </Route>
+
+
+                    {/* <Route path="/products/synthetic-t-shirts" exact>
+                        <SyntheticTshirts />
+                    </Route> */}
                 </Switch>
             </Suspense>
         </>
