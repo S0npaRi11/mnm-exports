@@ -19,6 +19,8 @@ const Polo = lazy(() => import('./pages/Products/Polo'))
 const Terms = lazy(() => import('./pages/Terms'))
 
 
+
+
 const Routes = () => {
     return (
         <>
