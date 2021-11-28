@@ -17,6 +17,7 @@ const TankTops = lazy(() => import('./pages/Products/Tank-Tops'))
 const Hoodies = lazy(() => import('./pages/Products/Hoodies'))
 const Polo = lazy(() => import('./pages/Products/Polo'))
 const Terms = lazy(() => import('./pages/Terms'))
+const Certificates = lazy(() => import('./pages/Certificates'))
 
 
 
@@ -47,17 +48,9 @@ const Routes = () => {
                         <Terms />
                     </Route>
 
-                    {/* <Route path="/products/men" exact>
-                        <Men />
+                    <Route path="/certificates" exact>
+                        <Certificates />
                     </Route>
-
-                    <Route path="/products/women" exact>
-                        <Women />
-                    </Route>
-
-                    <Route path="/products/kids" exact>
-                        <Kids />
-                    </Route> */}
 
                     <Route path="/products/t-shirts" exact>
                         <Tshirts />
@@ -91,10 +84,6 @@ const Routes = () => {
                         <Polo />
                     </Route>
 
-
-                    {/* <Route path="/products/synthetic-t-shirts" exact>
-                        <SyntheticTshirts />
-                    </Route> */}
                 </Switch>
             </Suspense>
         </>

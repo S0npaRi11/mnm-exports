@@ -29,7 +29,7 @@ const _sidenav = ({ closeNav }) => {
                     animate={{opacity: 1, y:0}}
                     transition={{ease: "easeOut", staggerChildren:0.5, delay: 0.6}}
                 >
-                    <motion.li className="my-8 text-xl"
+                    <motion.li className="my-4 text-xl"
                         initial={{opacity: 0, y: 50}}
                         animate={{opacity: 1}}
                     > 
@@ -62,7 +62,7 @@ const _sidenav = ({ closeNav }) => {
                     </motion.li>
 
 
-                    <motion.li className="my-8 text-xl"
+                    <motion.li className="my-4 text-xl"
                         initial={{opacity: 0, y: 50}}
                         animate={{opacity: 1}}
                     > 
@@ -72,12 +72,21 @@ const _sidenav = ({ closeNav }) => {
                     </motion.li>
 
 
-                    <motion.li className="my-8 text-xl"
+                    <motion.li className="my-4 text-xl"
                         initial={{opacity: 0, y: 50}}
                         animate={{opacity: 1}}
                     >
                         <Link to="/contact">
                             Contact
+                        </Link>
+                    </motion.li>
+
+                    <motion.li className="my-4 text-xl"
+                        initial={{opacity: 0, y: 50}}
+                        animate={{opacity: 1}}
+                    >
+                        <Link to="/certificates">
+                            Certificates
                         </Link>
                     </motion.li>
 

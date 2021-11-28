@@ -52,6 +52,7 @@ const navbar = () => {
                     </div>
                     <Link className="md:px-3 py-3 mx-1 transition duration-600 hover:bg-white hover:text-primary" to="/about"> About </Link>
                     <Link className="md:px-3 py-3 mx-1 transition duration-600 hover:bg-white hover:text-primary" to="/contact"> Contact </Link>
+                    <Link className="md:px-3 py-3 mx-1 transition duration-600 hover:bg-white hover:text-primary" to="/certificates"> Certificates </Link>
                 </div>
 
                 <span className="py-5 block md:hidden" onClick={e => setIsOpen(true)}>
