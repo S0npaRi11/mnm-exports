@@ -3,27 +3,27 @@ import {Helmet} from "react-helmet";
 
 import Loader from '../../Components/loader'
 
-import imgParag from '../../Static/Teams/opt/parag.avif'
-import imgManish from '../../Static/Teams/opt/default.avif'
-import Heading from '../../Components/_heading'
+// import imgParag from '../../Static/Teams/opt/parag.avif'
+// import imgManish from '../../Static/Teams/opt/default.avif'
+// import Heading from '../../Components/_heading'
 
 const Navbar = lazy(() =>import('../../Components/_navbar'))
 const Banner = lazy(() =>import('../../Components/_banner'))
-const Card = lazy(() =>import('../../Components/_card'))
+// const Card = lazy(() =>import('../../Components/_card'))
 const Footer = lazy(() =>import('../../Components/footer'))
 
 const index = () => {
 
-    const teamsArray = [
-        {
-            name: 'Mr. Manish Mahale',
-            image: imgManish
-        },
-        {
-            name: 'Mr. Parag Mahale',
-            image: imgParag
-        }
-    ]
+    // const teamsArray = [
+    //     {
+    //         name: 'Mr. Manish Mahale',
+    //         image: imgManish
+    //     },
+    //     {
+    //         name: 'Mr. Parag Mahale',
+    //         image: imgParag
+    //     }
+    // ]
 
     return (
         <>
@@ -64,7 +64,7 @@ const index = () => {
                 */}
 
 
-                <section className="p-10 text-center">
+                {/* <section className="p-10 text-center">
 
                     <Heading title="Our Team"/>
 
@@ -73,7 +73,7 @@ const index = () => {
                             <Card key={member.name} title={member.name} image={member.image} />
                         ))}
                     </div>
-                </section>
+                </section> */}
 
                 <Footer />
             </Suspense>

@@ -13,7 +13,8 @@ module.exports = {
         'secondary': '#7E8D85',
         'tertiory' : '#3C493F',
         'white': '#F7F7FF',
-        'danger': 'rgb(236 70 70)'
+        'danger': 'rgb(236 70 70)',
+        'watermark': '#464646'
       },
 
       fontFamily:{

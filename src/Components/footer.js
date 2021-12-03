@@ -90,8 +90,8 @@ const footer = () => {
                             whileHover={{x:20}}
                             transition={{ease: "easeOut", duration: 0.1}}
                         >
-                            <a href="tel:7057634075">
-                                <FaPhoneAlt className="inline" /> +91&nbsp;7057634075
+                            <a href="tel:9765130460">
+                                <FaPhoneAlt className="inline" /> +91&nbsp;9765130460
                             </a> 
                         </motion.li>
                     </ul>
@@ -110,6 +110,10 @@ const footer = () => {
                 <a className="px-3 py-5 transition duration-600 hover:text-secondary" href="https://www.linkedin.com/company/76517960"> <FaLinkedinIn className="text-xl" /> </a>
             </span>
         </div>
+
+        <div className="text-center px-10 bg-tertiory text-watermark">
+            <p className='text-md p-2'> Designed & Developed by <a className='underline' href='https://s0npari11.github.io/'> Parag Mahale </a> </p>    
+        </div>        
         </>
     )
 }
